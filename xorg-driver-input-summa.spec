@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Summa tablet devices
 Summary(pl):	Sterownik wej¶ciowy X.org dla tabletów Summa
 Name:		xorg-driver-input-summa
-Version:	1.0.0.3
+Version:	1.0.0.5
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/driver/xf86-input-summa-%{version}.tar.bz2
-# Source0-md5:	b59caf886098f120d593ed11a7da4bbf
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-input-summa-%{version}.tar.bz2
+# Source0-md5:	e30250970921db16880b1af9e1381de5
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_libdir}/xorg/modules/input/summa_drv.so
 #%{_mandir}/man4/summa.4*
