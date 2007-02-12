@@ -1,5 +1,5 @@
 Summary:	X.org input driver for Summa tablet devices
-Summary(pl.UTF-8):   Sterownik wejściowy X.org dla tabletów Summa
+Summary(pl.UTF-8):	Sterownik wejściowy X.org dla tabletów Summa
 Name:		xorg-driver-input-summa
 Version:	1.1.0
 Release:	0.1
